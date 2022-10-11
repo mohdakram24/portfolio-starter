@@ -25,11 +25,12 @@ const Intro = () => {
         <div className="Intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am </span>
-                    <span>Mohd Akram Khan </span>
-                    <span>
+                    <span className='font' style={{ color: darkMode ? "white" : "" }}>Hello! I Am </span>
+                    <span className='font'>Mohd Akram Khan </span>
+                    <span className='font' style={{ color: darkMode ? "var(--orange)" : "" }}>
                         Frontend Developer with high level of experience in web designing
-                        and development, producting the Quality work
+                        and development, producting the Quality work.
+                        A highly organized and hard-working individual looking for a responsible position to gain practical experience.
                     </span>
                 </div>
                 <button className="button i-button">Hire me</button>
@@ -49,7 +50,7 @@ const Intro = () => {
                     transition={transition}
                     src={glassesimoji} alt="" />
                 <motion.div
-                    initial={{ top: "-4%", left: "74%" }}
+                    initial={{ top: "-25%", left: "74%" }}
                     whileInView={{ left: "65%" }}
                     transition={transition}
                     className="floating-div"

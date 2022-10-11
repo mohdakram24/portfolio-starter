@@ -9,6 +9,10 @@
     padding-top: 3rem;
   }
 
+  .font {
+    font-style: oblique;
+  }
+
   /* left side */
 .awesome {
     display: flex;

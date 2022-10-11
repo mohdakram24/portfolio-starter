@@ -14,7 +14,7 @@ const Works = () => {
   const darkMode = theme.state.darkMode
 
     return (
-        <div className="works">
+        <div className="works font">
             {/* Left side */}
             <div className="awesome">
                 {/* Dark mode */}
@@ -22,15 +22,14 @@ const Works = () => {
                     Works for All these
                 </span>
                 <span>Brands & Clients</span>
-                <spane>
-                    Lorem ispum is simpley dummy text of printing of printing Lorem
+                <spane style={{ color: darkMode ? "var(--orange)" : "" }}>
+                “I am Mohd Akram Khan, and I create/offer BRAND OFFERING
                     <br />
-                    ispum is simpley dummy text of printingLorem ispum is simpley dummy
-                    text
+                    for BRAND AUDIENCE who want to BRAND SOLUTION 
                     <br />
-                    y dummy text of printingLorem
+                    and BRAND USP or COMPETITIVE ADVANTAGE”
                     <br />
-                    ispum is simpley dummy text of printing
+                    it’s almost like an elevator pitch!
                 </spane>
                 <button className="button s-button">Hire Me</button>
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

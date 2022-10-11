@@ -7,12 +7,12 @@ const Navbar = () => {
     return (
         <div className="n-wrapper" id='Navbar'>
             <div className="n-left">
-                <div className="n-name">Akram</div>
+                <div className="n-name font">Akram</div>
                 <Toggle />
             </div>
             <div className="n-right">
                 <div className="n-list">
-                    <ul style={{ listStyleType: "none" }}>
+                    <ul style={{ listStyleType: "none" }} className='font'>
                         <li>
                             <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                                 HOME
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to="contact" spy={true} smooth={true}>
-                    <button className="button n-button">
+                    <button className="button n-button font">
                         Contact
                     </button>
                 </Link>

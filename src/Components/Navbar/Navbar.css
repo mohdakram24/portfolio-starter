@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
+.font {
+    font-style: oblique;
+}
 
 .n-left {
     flex: 1;
