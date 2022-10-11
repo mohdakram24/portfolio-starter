@@ -23,13 +23,11 @@ const Works = () => {
                 </span>
                 <span>Brands & Clients</span>
                 <spane style={{ color: darkMode ? "var(--orange)" : "" }}>
-                “I am Mohd Akram Khan, and I create/offer BRAND OFFERING
+                “I am Mohd Akram Khan, and I create/offer WEB DEVELOPMENT
                     <br />
-                    for BRAND AUDIENCE who want to BRAND SOLUTION 
+                    for COMPANIES AND ED-TECH who want to increase their business 
                     <br />
-                    and BRAND USP or COMPETITIVE ADVANTAGE”
-                    <br />
-                    it’s almost like an elevator pitch!
+                    and EMPOWERING THE PLATFORM COMMERCE ”
                 </spane>
                 <button className="button s-button">Hire Me</button>
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
